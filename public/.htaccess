@@ -17,5 +17,6 @@
     # Handle Front Controller...
     RewriteCond %{REQUEST_FILENAME} !-d
     RewriteCond %{REQUEST_FILENAME} !-f
+    # RAD redirecciona todas las url al index
     RewriteRule ^ index.php [L]
 </IfModule>
